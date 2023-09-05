@@ -172,19 +172,6 @@ section
     width: 100px;
     height: 100px;
 }
-.fakta2 {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background: #00BFFF;
-    color: #fff;
-    border-radius: 40px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-size: 1.7em;
-    margin-left: 300px;
-}
 .contact
 {
     display: inline-block;
@@ -198,4 +185,7 @@ section
     text-decoration: none;
     font-size: 1.7em;
     margin-left: 50px;
+}
+.kontak {
+    list-style: none;
 }
