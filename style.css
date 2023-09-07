@@ -186,6 +186,9 @@ section
     font-size: 1.7em;
     margin-left: 50px;
 }
+.contact:hover {
+    background-color: #333;
+}
 .kontak {
     list-style: none;
 }
