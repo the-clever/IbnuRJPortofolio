@@ -150,6 +150,12 @@ section
 .images:hover .boy{
     left: 45%;
 }
+
+.objek {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
 .fakta {
     display: inline-block;
     margin-top: 20px;
