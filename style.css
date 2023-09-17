@@ -5,11 +5,33 @@
   box-sizing: border-box;
   font-family: 'poppins', sans-serif;
 }
+header {
+    padding-top: 50px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 700;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: red;
+}
 section
 {
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    min-height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -201,4 +223,18 @@ h1 {
 }
 .kontak {
     list-style: none;
+}
+.foto-kenangan {
+    height: 25%;
+    width: 25%;
+    margin-left: 25%;
+    display: flex;
+    position: relative;
+}
+.foto-kenangan2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 25%;
+    height: 25%;
 }
